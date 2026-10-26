@@ -56,9 +56,8 @@ Just fast reflexes and nerves of steel. 🫡
 12. [Deploy It Yourself](#-deploy-it-yourself)
 13. [Leaderboard Setup](#-leaderboard-setup)
 14. [Offline Mode (No Wi-Fi? No Problem)](#-offline-mode-no-wi-fi-no-problem)
-15. [Stall Setup Guide (Event Day)](#-stall-setup-guide-event-day)
-16. [Troubleshooting](#-troubleshooting)
-17. [Credits & License](#-credits--license)
+15. [Troubleshooting](#-troubleshooting)
+16. [Credits & License](#-credits--license)
 
 ---
 
@@ -879,84 +878,6 @@ npm run build
 # On the stall laptop, open dist/index.html
 # Everything works without internet
 ```
-
----
-
-## 🏪 Stall Setup Guide (Event Day)
-
-### Hardware Checklist
-
-| Item | Quantity | Source | Purpose |
-|---|---|---|---|
-| Laptops (charged!) | 2–3 | Team members' laptops | Running the game |
-| Extra laptop / monitor | 1 | Borrow from a friend | Dedicated leaderboard display |
-| Bluetooth speaker | 1 | Someone definitely has one | Game audio (essential!) |
-| Extension board / power strip | 1 | Bring from home | Charging multiple laptops |
-| USB drive | 1 | For offline game files | Backup deployment |
-| Phone (for hotspot) | 1 | Team member | Backup internet for leaderboard sync |
-
-### Decoration Checklist (₹1,000 Budget)
-
-| Item | Qty | Approx Cost | Purpose |
-|---|---|---|---|
-| Black chart paper (large rolls) | 3 | ₹120 | Backdrop + table cover (dark cyberpunk base) |
-| USB LED strip lights (cyan/green) | 2 rolls | ₹350 | Edge lighting for table + behind monitors |
-| Neon markers / highlighters | 1 set | ₹80 | Draw hash chains, circuit patterns on backdrop |
-| Fluorescent tape (green/cyan) | 1 roll | ₹60 | Accent lines, border highlights |
-| Cardboard blocks (cut from boxes) | 6–8 | ₹0 (free) | Physical "blockchain" prop — hang from string |
-| String / thread | 1 roll | ₹20 | Connect physical blocks into a chain |
-| Printed hash labels (A4 paper) | 6–8 | ₹40 | Paste on cardboard blocks with hash values |
-| QR standee (printed on A4, mounted) | 1 | ₹30 | Proof-of-play card scanner |
-| A3 game poster / banner | 1 | ₹100 | "CHAIN HEIST: Rewrite History" title poster |
-| Tape, pins, glue | — | ₹50 | Assembly |
-| **Misc buffer** | — | ₹150 | Unexpected purchases |
-| **TOTAL** | | **₹1,000** | |
-
-### Stall Layout (Top-Down View)
-
-```
-    ┌─────────────────────────────────────────────────┐
-    │              BLACK BACKDROP WALL                  │
-    │                                                   │
-    │    ╔══════════════════════════════════════╗       │
-    │    ║    "CHAIN HEIST: REWRITE HISTORY"    ║       │
-    │    ║         A3 POSTER / BANNER           ║       │
-    │    ╚══════════════════════════════════════╝       │
-    │                                                   │
-    │    ⛓️ ─── 🧱 ─── 🧱 ─── 🔴 ─── 🧱 ─── 🧱       │
-    │    (Physical cardboard blockchain hanging)        │
-    │                                                   │
-    │  ┌───────────┐  ┌───────────┐  ┌───────────┐    │
-    │  │  LAPTOP 1 │  │  LAPTOP 2 │  │ LEADERBOARD│    │
-    │  │  (Game)   │  │  (Game)   │  │ (Display)  │    │
-    │  └───────────┘  └───────────┘  └───────────┘    │
-    │  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    │
-    │  ▓  TABLE (covered in black chart paper)    ▓    │
-    │  ▓  LED strips along edges ═══════════════  ▓    │
-    │  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    │
-    │                                                   │
-    │    [QR STANDEE]          [BLUETOOTH SPEAKER]      │
-    │                                                   │
-    │                VISITOR AREA                        │
-    └─────────────────────────────────────────────────┘
-```
-
-### Event Day Timeline
-
-| Time | Action |
-|---|---|
-| **T-2 hours** | Arrive early. Set up black backdrop and chart paper on table. |
-| **T-1.5 hours** | Install LED strips along table edges and behind monitors. Power them on. |
-| **T-1 hour** | Hang the physical cardboard blockchain from string on the backdrop. |
-| **T-45 min** | Set up laptops. Open the game on each. Test audio on the Bluetooth speaker. |
-| **T-30 min** | Open the leaderboard display on the dedicated monitor. Put up the QR standee. |
-| **T-15 min** | Do a full test run. Have a team member play one round end-to-end. |
-| **T-5 min** | Dim surrounding lights if possible. Let the neon glow take over. Stand back and admire. |
-| **Showtime** | One team member manages the game queue. One explains the concept to judges. One handles tech issues. |
-
-### How to Pitch to Judges (30-Second Script)
-
-> *"This is Chain Heist. You play as a hacker trying to tamper with a blockchain and rewrite history. The game uses REAL SHA-256 cryptography — the same algorithm Bitcoin uses. When you tamper with one block, the entire chain after it breaks because the hashes no longer match. You then have 60 seconds to re-mine every broken block through a timing mini-game before the honest network outpaces you. It teaches immutability, proof-of-work, and 51% attacks entirely through gameplay — no quizzes, no trivia. Would you like to try?"*
 
 ---
 
