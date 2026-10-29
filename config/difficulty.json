@@ -1,0 +1,49 @@
+{
+  "levels": {
+    "1": {
+      "name": "Small Network",
+      "roundTime": 90,
+      "blocksToMine": 4,
+      "nonceScrollSpeed": 2,
+      "nonceTargetWindow": 500,
+      "honestNetworkSpeed": 0.3,
+      "powerUpsEnabled": true
+    },
+    "2": {
+      "name": "Growing Network",
+      "roundTime": 80,
+      "blocksToMine": 5,
+      "nonceScrollSpeed": 3,
+      "nonceTargetWindow": 400,
+      "honestNetworkSpeed": 0.5,
+      "powerUpsEnabled": true
+    },
+    "3": {
+      "name": "Mainnet",
+      "roundTime": 75,
+      "blocksToMine": 6,
+      "nonceScrollSpeed": 4,
+      "nonceTargetWindow": 300,
+      "honestNetworkSpeed": 0.7,
+      "powerUpsEnabled": true
+    },
+    "4": {
+      "name": "Ethereum Mode",
+      "roundTime": 70,
+      "blocksToMine": 6,
+      "nonceScrollSpeed": 5,
+      "nonceTargetWindow": 200,
+      "honestNetworkSpeed": 0.85,
+      "powerUpsEnabled": true
+    },
+    "5": {
+      "name": "Bitcoin Mode",
+      "roundTime": 60,
+      "blocksToMine": 6,
+      "nonceScrollSpeed": 7,
+      "nonceTargetWindow": 120,
+      "honestNetworkSpeed": 1.0,
+      "powerUpsEnabled": false
+    }
+  }
+}
